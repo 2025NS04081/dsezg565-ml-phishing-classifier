@@ -53,7 +53,7 @@ rest (cleaning, split, saving).
 
 **https://github.com/2025NS04081/dsezg565-ml-phishing-classifier**
 
-**Live Streamlit App:** https://dsezg565-ml-phishing.streamlit.app
+**Live Streamlit App:** https://dsezg565-ml-phishing-classifier.streamlit.app/
 
 ## d. Models Used
 
