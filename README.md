@@ -98,6 +98,7 @@ dsezg565-ml-phishing-classifier/
 ├── requirements.txt
 ├── README.md
 ├── test_data.csv                   # held-out test split (required deliverable)
+├── sample_upload_test.csv          # small 50-row sample for testing the app's upload feature
 ├── data/
 │   ├── dataset_phishing.csv        # raw CSV as downloaded from Kaggle
 │   └── raw_phishing_websites.csv   # cleaned full dataset (11,430 rows)
@@ -127,7 +128,9 @@ streamlit run app.py           # launch the web app locally
 ## Streamlit App Features
 
 - **Dataset upload (CSV):** upload your own test CSV, or use the bundled
-  `test_data.csv` with one click.
+  `test_data.csv` with one click. A smaller `sample_upload_test.csv` (50 rows,
+  same columns) is also included in the repo if you just want to quickly try
+  the upload feature without using the full test set.
 - **Model selection dropdown:** switch between all 5 trained models.
 - **Evaluation metrics display:** both the official held-out comparison table
   and live-computed metrics on whatever data you upload.
